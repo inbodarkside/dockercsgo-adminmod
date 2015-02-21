@@ -27,15 +27,3 @@ EXPOSE 27015
 WORKDIR /home/steam/csgo
 ENTRYPOINT ["./srcds_run"]
 
-    Status
-    API
-    Training
-    Shop
-    Blog
-    About
-
-    © 2015 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Contact
