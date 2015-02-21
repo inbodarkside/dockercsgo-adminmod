@@ -6,9 +6,6 @@ MAINTAINER inbo
 RUN apt-get update -y && apt-get upgrade -y && \
     apt-get install -y wget lib32gcc1
 
-
-# Run as steam user
-USER steam
  
 # Make the directories and get the steam file
 RUN mkdir /home/steamcmd &&\
