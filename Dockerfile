@@ -25,4 +25,5 @@ EXPOSE 27015
 # This container will be executable
 WORKDIR /steamcmd
 ENTRYPOINT ["./srcds_run"]
+# ./srcds_run -game csgo -console -usercon +game_type 0 +game_mode 0 +mapgroup mg_bomb +map de_dust
 
