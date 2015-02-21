@@ -16,6 +16,8 @@ wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz && \
 # Running the steam automated install
 RUN /steamcmd/steamcmd.sh +login anonymous +force_install_dir /steamcmd/csgoserver +app_update 740 validate +quit
 
+# To do: get the mirror.pointysoftware.net/alliedmodders/mmsource-1.10.4-linux.tar.gz
+#to do : get the http://sourcemod.gameconnect.net/files/sourcemod-1.7.0-linux.tar.gz
 
 # Make server port available to host
 EXPOSE 27015
