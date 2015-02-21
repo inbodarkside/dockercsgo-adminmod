@@ -23,6 +23,6 @@ RUN /steamcmd/steamcmd.sh +login anonymous +force_install_dir /steamcmd/csgoserv
 EXPOSE 27015
 
 # This container will be executable
-WORKDIR /home/steam/csgo
+WORKDIR /steamcmd
 ENTRYPOINT ["./srcds_run"]
 
