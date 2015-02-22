@@ -14,7 +14,7 @@ wget http://media.steampowered.com/installer/steamcmd_linux.tar.gz && \
  tar -xvzf steamcmd_linux.tar.gz
 
 # Running the steam automated install
-RUN /steamcmd/steamcmd.sh +login anonymous +force_install_dir /steamcmd/csgoserver +app_update 740 validate +quit
+RUN /home/steamcmd/steamcmd.sh +login anonymous +force_install_dir /steamcmd/csgoserver +app_update 740 validate +quit
 
 # trying
 cd /home/steamcmd/csgoserver/csgo &&\ wget http://mirror.pointysoftware.net/alliedmodders/mmsource-1.10.4-linux.tar.gz 
